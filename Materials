@@ -1,0 +1,97 @@
+Hash table
+linked lists
+
+https://visualgo.net/en/hashtable
+
+Data structures
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html
+https://en.wikipedia.org/wiki/Linked_list
+
+
+Deletiion 
+i = key%HT.length;
+for j = 0 to HT_SC[i].length
+  if (HT_SC[i][j] == key)
+    remove key from list i
+
+Insertion (it automatically prevents double insertion)
+    i = key%HT.length;
+if HT_SC[i].length == 6, prevent insertion
+insert key to the back of this list i
+
+
+LinkedList
+
+Search  0(n)
+if empty, return NOT_FOUND
+index = 0, temp = head
+while (temp.item != v)
+  index++, temp = temp.next
+  if temp == null
+    return NOT_FOUND
+
+
+ Stacks
+https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html
+
+
+Queue
+https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
+https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html
+ 
+Lecture 7 Challenges
+https://discuss.leetcode.com/topic/95974/design-a-vending-machine 
+https://discuss.leetcode.com/topic/95654/design-classes-for-deck-of-cards 
+https://discuss.leetcode.com/topic/96426/design-calculator 
+Code Complete 2nd edition, Steve McConnell -Chapters 1 – 6 a MUST READ
+
+
+Common problems
+
+strings
+isPalindrome
+Cyphers
+Lexigraphic comparisons
+ASCII conversions
+Remember: all characters have associated ascii value
+
+
+Arrays
+Merge sorted arrays
+Move zeroes
+Remove duplicates from sorted array
+(Many more)
+
+
+Time Complexity of Arrays
+Looping array takes O(n) time, where n is the size of the array
+Look up a value in an array
+O(n) if the array is unsorted
+O(log n) if the array is sorted
+O(1) if a Dictionary/HashTable is populated with all the array values
+Sorting an array
+O(n*log n) using merge sort etc
+O(n) if the values of the array are in a small range using bucket sort etc
+
+
+Common Recursive Problems
+Fibonacci
+Towers of Hanoi
+Generate Parentheses
+Stack of Boxes
+
+
+HackerRank
+LeetCode
+GeeksForGeeks
+TopCoder
+Microsoft College Code Competition – sample of previous questions
+Practice It! - solve intro to java programming questions online
+Code Step by Step – practice problems in many languages
+MSFT3C - Coding challenges for college students, program sponsored by Microsoft
+Khan Academy – intro to CS topicss
+https://www.quora.com/Which-is-the-best-online-course-to-learn-data-structures
+http://www.geeksforgeeks.org/
+https://visualgo.net/en
+
